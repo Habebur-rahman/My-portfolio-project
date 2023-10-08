@@ -1,0 +1,29 @@
+/* font-family starts */
+@font-face {
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+    font-family: Oswald-VariableFont_wght;
+}
+/* font-family ends */
+/* html tag start */
+html {
+    font-size: 62.5%;
+}
+/* html tag end */
+
+/* Universal  starts*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Oswald-VariableFont_wght;
+}
+/* Universal  ends*/
+/* color starts */
+:root {
+    --primary-color:#FFF8F3;
+    --secondary-color: #FD6E0A;
+    --light-color: #FFFFFF;
+}
+/* color ends */
