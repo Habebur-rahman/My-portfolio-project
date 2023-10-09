@@ -94,7 +94,7 @@ ul >li  {
     background-color: var(--light-color);
 }
 .section-1 {
-    padding-top: 24rem;
+    padding-top: 19rem;
     padding-left: 17rem;
 }
 .head-2 {
@@ -119,6 +119,60 @@ ul >li  {
     color: var(--secondary-color);
     background-color: var(--light-color);
 }
+/* header section ends */
+/* main section starts */
+     /* about me section starts */
+.main {
+    margin-top: 12rem;
+}
+.section-2 {
+    background-color: var(--primary-color);
+    width: 80%;
+    height: 50rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.about {
+    text-align: center;
+}
+.h-about {
+    padding-top: 8rem;
+    font-size: 4rem;
+    font-weight: 400;
+    border-top: 0.2rem solid var(--secondary-color);
+}
+.p-about{
+    padding: 2.8rem 12rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.m-icon {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    text-align: center;
+}
+.t-h1 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.fa-solid {
+    font-size: 2rem;
+}
+.d-h1 {
+    font-size: 1.6rem;
+    font-weight: 400;
+} 
+.d-h1:hover {
+    color: var(--secondary-color);
+}
+       /* about me section ends */
+
+
+
+
+
 
 
 
