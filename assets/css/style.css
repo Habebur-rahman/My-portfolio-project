@@ -168,6 +168,89 @@ ul >li  {
     color: var(--secondary-color);
 }
        /* about me section ends */
+       /* what i do section starts */
+.section-3 {
+    margin-top: 12rem;
+}
+.w-head {
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+.w-div {
+   
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0 2rem;
+    margin-bottom: 8rem;
+    
+}
+.fa-brands {
+    font-size: 4rem;
+}
+.tag-heading {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.paragraph {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: justify;
+    padding: 0 2.8rem;
+    padding-top: 1rem;
+    
+}
+.html {
+    background-color: var(--primary-color);
+    padding: 3rem 3rem;
+    margin: 0 8rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem var(--secondary-color);
+}
+.css { 
+        background-color: var(--primary-color);
+        padding: 3rem 3rem;
+        margin: 0 8rem;
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem var(--secondary-color);
+    }
+.bs {
+    background-color: var(--primary-color);
+        padding: 3rem 3rem;
+        margin: 0 8rem;
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem var(--secondary-color);
+}
+.w-div-2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 20rem;
+
+}
+.js {
+    background-color: var(--primary-color);
+    padding: 3rem 3rem;
+    margin: 0 10rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem var(--secondary-color);
+}
+.react {
+    background-color: var(--primary-color);
+    padding: 3rem 3rem;
+    margin: 0 10rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem var(--secondary-color);
+}
+ /* what i do section ends */
+
+
+
+
+
+
 
 
 
