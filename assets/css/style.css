@@ -7,6 +7,7 @@
 /* html tag start */
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 /* html tag end */
 
@@ -45,6 +46,9 @@ header {
 .nav-manu  {
     margin-right: -15rem;
 }
+ a {
+    color: black;
+}
 
 
 .name {
@@ -68,18 +72,22 @@ ul >li  {
     padding-top: 4.2rem;
     margin: 0 1.5rem;
     
+    
 }
 
 .hover-1 >a {
     color: black;
 }
 .hover-1 >a:hover {
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
     text-decoration: underline;
+}
+.hover-2 {
+    color: black;
 }
 
 .hover-2:hover {
-    color: var(--secondary-color);
+    color: #FD6E0A;
     text-decoration: underline;
 }
 .hover-3  {
@@ -87,6 +95,7 @@ ul >li  {
     border: 0.2rem solid var(--primary-color);
     border-radius: 1.1rem;
     padding: 0.5rem 0.8rem;
+    
 
 }
 .hover-3:hover {
@@ -332,10 +341,19 @@ input {
 }
 .section-4 h1:hover {
     color: var(--secondary-color);
+    
 }
 .design:hover {
      color: var(--secondary-color);
      text-decoration: underline;
+}
+.section-4 h1 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.design {
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 /* footer section ends  */
 
