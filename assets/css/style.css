@@ -245,6 +245,100 @@ ul >li  {
     box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem var(--secondary-color);
 }
  /* what i do section ends */
+        /* main section ends */
+ /* footer section starts  */
+ .footer {
+    margin-top: 11rem;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 60rem;
+
+ }
+ .f-main-div {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .Connect {
+    margin-top: 6rem;
+    
+ }
+ .connect-head {
+    font-size: 4rem;
+    font-weight: 400;
+ }
+ .connect-para {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 1rem 0rem; 
+   
+ }
+ .fa-brands {
+    font-size: 2.6rem;
+    padding: 0rem 0.2rem;
+    color: black;
+ }
+ .fa-brands:hover {
+    color: var(--secondary-color);
+ }
+ 
+.cell-href-div {
+    margin-top: 1.2rem;
+    display: flex;
+}
+.cell-href-div h3 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.cell-href-div a {
+    padding-top: 0.4rem;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    color: black;
+}
+.cell-href-div a:hover {
+    color: var(--secondary-color);
+}
+.message {
+    margin-top: 6rem;
+}
+input {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    margin: 1rem 0rem;
+    width: 25rem;
+}
+.message-heading {
+    font-size: 4rem;
+    font-weight: 400;
+}
+.contact-2 {
+    color: black;
+    font-size: 2.2rem;
+    background-color: var(--secondary-color);
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 0.8rem;
+    padding: 0.6rem 1rem;
+    width: 12rem;
+}
+.contact-2:hover {
+    color: var(--secondary-color);
+    background-color: var(--light-color);
+}
+.section-4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13rem;
+}
+.section-4 h1:hover {
+    color: var(--secondary-color);
+}
+.design:hover {
+     color: var(--secondary-color);
+     text-decoration: underline;
+}
+/* footer section ends  */
+
 
 
 
