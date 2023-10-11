@@ -33,9 +33,9 @@ header {
     width: 100%;
     height: 80rem;
     background-color: var(--primary-color);
-    background-image: url(../images/web.png) , url(../images/developer.png);
+    background-image: url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: right , left;
+    background-position: left;
 
 }
 .nav {
@@ -55,7 +55,7 @@ header {
     font-size: 4rem;
     font-weight: 400;
     padding-top: 2.8rem;
-    margin-left: -5rem;
+    margin-left: -6rem;
   
 }
 .name:hover {
@@ -103,8 +103,15 @@ ul >li  {
     background-color: var(--light-color);
 }
 .section-1 {
-    padding-top: 19rem;
-    padding-left: 17rem;
+    display: flex;
+    justify-content: space-around;
+}
+.banner-section {
+    margin-top: 19rem;
+}
+.banner-section-2  {
+    margin-top: 10rem;
+    margin-right: -11rem;
 }
 .head-2 {
     font-size:3.8rem;
